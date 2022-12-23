@@ -12,17 +12,17 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
+        esc {
             bindings = <&kp ESC>;
             key-positions = <0 1>;
         };
 
-        new_combo {
+        prev_tab {
             bindings = <&kp LC(PG_UP)>;
             key-positions = <10 11>;
         };
 
-        new_combo {
+        next_tab {
             bindings = <&kp LC(PG_DN)>;
             key-positions = <22 23>;
         };
