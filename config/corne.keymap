@@ -26,6 +26,11 @@
             bindings = <&kp LC(PG_DN)>;
             key-positions = <22 23>;
         };
+
+        new_combo {
+            bindings = <&kp F1>;
+            key-positions = <2 3>;
+        };
     };
 
     keymap {
